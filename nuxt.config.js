@@ -1,9 +1,10 @@
 export default {
   ssr: false,
+  target: 'static',
 
   publicRuntimeConfig: {
     baseApiUrl: process.env.BASE_API_URL || 'https://kkl.herokuapp.com',
-    baseUrl: process.env.BASE_URL || 'http://localhost:3000',
+    baseUrl: process.env.BASE_URL || 'https://kkldinkes.netlify.app',
   },
 
   head: {
