@@ -12,7 +12,7 @@
       :fields="[
         { key: 'title', label: 'Judul' },
         { key: 'expiredAt', label: 'Kadaluarsa pada' },
-        { key: 'action', label: 'Aksi', class: 'text-center width-170' },
+        { key: 'action', label: 'Aksi', class: 'text-center width-230' },
       ]"
       :items="album.share"
     >
