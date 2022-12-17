@@ -3,7 +3,7 @@ export default {
   target: 'static',
 
   publicRuntimeConfig: {
-    baseApiUrl: process.env.BASE_API_URL || 'https://kkl.herokuapp.com',
+    baseApiUrl: process.env.BASE_API_URL || 'https://kkl.dedeard.my.id',
     baseUrl: process.env.BASE_URL || 'https://kkldinkes.netlify.app',
   },
 
@@ -42,7 +42,7 @@ export default {
   ],
 
   axios: {
-    baseURL: process.env.BASE_API_URL || 'https://kkl.herokuapp.com',
+    baseURL: process.env.BASE_API_URL || 'https://kkl.dedeard.my.id',
   },
 
   build: {},
