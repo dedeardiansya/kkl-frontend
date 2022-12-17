@@ -27,6 +27,9 @@
         </span>
       </template>
       <template #cell(action)="{ item }">
+        <b-button variant="primary" size="sm" :to="`/share/${item.token}`"
+          >Open</b-button
+        >
         <b-button variant="primary" size="sm" @click.prevent="copy(item.token)"
           >Copy Link</b-button
         >
